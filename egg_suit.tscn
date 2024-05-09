@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=3 uid="uid://c8foo6wim2nft"]
+
+[ext_resource type="Texture2D" uid="uid://bwxikq5j82r1i" path="res://assets/egg idle.png" id="1_2dkrl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_04yip"]
+atlas = ExtResource("1_2dkrl")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_17qbo"]
+atlas = ExtResource("1_2dkrl")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cuslr"]
+atlas = ExtResource("1_2dkrl")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jt7py"]
+atlas = ExtResource("1_2dkrl")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h2xn3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_04yip")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_17qbo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cuslr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jt7py")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
+
+[node name="Node2D" type="AnimatedSprite2D"]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_h2xn3")
+frame_progress = 0.55482
