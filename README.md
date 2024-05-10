@@ -1,6 +1,6 @@
 Sprite I created, its an Egg in a suit.
 
 <div>
-  <img src="assets/egg suit.png") />
+  <img src="assets/egg suit.png" alt="egg suit" width = "256px" height = "256px" />
 </div>
 
