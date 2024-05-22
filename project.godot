@@ -13,4 +13,4 @@ config_version=5
 config/name="egg_suit"
 run/main_scene="res://egg_suit.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://assets/egg suit.png"

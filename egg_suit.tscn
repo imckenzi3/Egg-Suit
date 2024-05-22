@@ -100,7 +100,7 @@ animations = [{
 "speed": 4.0
 }]
 
-[node name="Node2D" type="AnimatedSprite2D"]
+[node name="egg_suit" type="AnimatedSprite2D"]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_h2xn3")
 frame_progress = 0.641116
